@@ -8,3 +8,6 @@ string[] text;
 Console.WriteLine("Введите массив строк через пробел");
 string String = Console.ReadLine();     //Вводим строку
 Console.WriteLine();
+
+text = String.Split(' ');               //Разбиваем массив text на элементы с помощью метода Split
+int Size = 0;                           //Создаем переменную Size, которая определяет текущий элемент массива
